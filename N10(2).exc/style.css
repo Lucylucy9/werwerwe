@@ -1,0 +1,35 @@
+img {
+    border-radius: 50%;
+}
+
+button {
+    background-color: rgb(57, 159, 255);
+    color: white;
+    border-radius: 30px;
+    width: 100px;
+    height: 50px;
+    
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 20px;
+    max-width: 700px;
+}
+
+.menu a:hover {
+    color: rgb(172, 16, 16);
+}
+
+.menu > div:nth-child(3) {
+    
+}
